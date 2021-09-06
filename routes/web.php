@@ -37,7 +37,6 @@ Route::group(['middleware' => 'auth'],function () {
         'create' => 'books.create',
         'store'=> "books.store"
     ]);
-
     
     Route::group(['prefix' => 'book'],function () {
         
